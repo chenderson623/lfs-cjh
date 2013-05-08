@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export LFS=/mnt/lfs
+
+mkdir -pv $LFS
+mount -v -t ext3 /dev/sdb2 $LFS
+
+/sbin/swapon -v /dev/sdb3

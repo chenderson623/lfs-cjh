@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source common.sh
+
+mkdir -v $LFS/tools
+ln -sv $LFS/tools /
